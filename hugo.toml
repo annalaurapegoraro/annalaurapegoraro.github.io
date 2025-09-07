@@ -1,3 +1,88 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Annalaura Pegoraro'
+theme = 'typo'
+
+# Google analytics code
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A Math Blog"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+Welcome to my website!   
+I am a Mathematics student from Italy and this is a space where I share my lecture notes (and possibly other things I find interesting). 
+"""
+
+# Collection to display on home
+# homeCollectionTitle = 'Posts'
+# homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+singleDateFormat = '2 Jan 2006' 
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "~"
+
+# Social icons
+# [[params.social]]
+# name = "linkedin"
+# url = "https://www.linkedin.com/in/user/"
+
+# [[params.social]]
+# name = "medium"
+# url = "https://medium.com/@user"
+
+# [[params.social]]
+# name = "github"
+# url = "https://github.com/user"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "notes"
+url = "/notes/"
+
+[[params.menu]]
+name = "books"
+url = "/books/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
+
+publishdir = "docs"

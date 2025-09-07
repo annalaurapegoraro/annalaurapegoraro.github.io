@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <article>
+     {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </article>
+  <ul>
+  {{ range .Pages }}
+    <li>
+      <h5 style="font-weight: normal; font-size: 1.1em; margin-bottom: 5px;">
+        <a href="{{ .Permalink }}" style="text-decoration: underline;">{{ .Title }}</a>
+      </h5>
+      <p>{{ .Description }}</p>
+    </li>
+  {{ end }}
+  </ul>
+{{ end }}

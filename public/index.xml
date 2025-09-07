@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Annalaura Pegoraro</title>
+    <link>https://example.org/</link>
+    <description>Recent content in Home on Annalaura Pegoraro</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orlando, Virginia Woolf (tr. Silvia Rota Sperti)</title>
+      <link>https://example.org/books/orlando/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/books/orlando/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A Room of One&#39;s Own, Virginia Woolf (tr. L.B. Wilcock &amp; J.R. Wilcock)</title>
+      <link>https://example.org/books/a_room_for_ones_own/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/books/a_room_for_ones_own/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Bell Jar, Sylvia Plath (tr. Adriana Bottini)</title>
+      <link>https://example.org/books/the_bell_jar/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/books/the_bell_jar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>My Year of Rest and Relaxation, Otessa Moshfegh</title>
+      <link>https://example.org/books/my_year_of_rest-and_relaxation/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/books/my_year_of_rest-and_relaxation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analisi Matematica 2</title>
+      <link>https://example.org/notes/analisi-matematica-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/notes/analisi-matematica-2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://example.org/notes/A2_1.pdf&#34;&gt;1.1 - Topologia di uno Spazio Metrico&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/A2_12.pdf&#34;&gt;1.2 - Teoremi di Punto Fisso e Teorema di Ascoli-Arzelà&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/A2_21.pdf&#34;&gt;2.1 - Calcolo Differenziale: definizioni&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/A2_22.pdf&#34;&gt;2.2 - Calcolo Differenziale: derivate di ordine superiore&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/A2_31.pdf&#34;&gt;3.1 - Equazioni Differenziali: primo ordine&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/A2_32.pdf&#34;&gt;3.2 - Equazioni Differenziali: sistemi, secondo ordine&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/A2_41.pdf&#34;&gt;4.1 - Teorema di Invertibilità Locale e Teorema della Funzione Implicita&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/A2_42.pdf&#34;&gt;4.2 - Sottovarietà Differenziabili&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/A2_43.pdf&#34;&gt;4.3 - Curve e 1-Forme&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/A2_51.pdf&#34;&gt;5.1 - Misura e Integrale di Lebesgue&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/A2_52.pdf&#34;&gt;5.2 - Integrazione su Superfici, Teorema della Divergenza e Teorema del Rotore&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fisica Matematica</title>
+      <link>https://example.org/notes/fisica-matematica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/notes/fisica-matematica/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://example.org/notes/FisMat_11.pdf&#34;&gt;1.1 - Analisi dello Spazio delle Fasi&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/FisMat_12.pdf&#34;&gt;1.2 - Proprietà del Flusso&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/FisMat_13.pdf&#34;&gt;1.3 - Integrali Primi&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/FisMat_14.pdf&#34;&gt;1.4 - Stabilità degli Equilibri&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/FisMat_21.pdf&#34;&gt;2.1 - Sistemi Meccanici Liberi&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/FisMat_22.pdf&#34;&gt;2.2 - Sistemi Meccanici Vincolati&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/FisMat_31.pdf&#34;&gt;3.1 - Equazioni di Lagrange per Sistemi Olonomi&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/FisMat_32.pdf&#34;&gt;3.2 - Sistemi Lagrangiani, Teorema di Noether, Riduzione&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/FisMat_41.pdf&#34;&gt;3.3 - Formulazione Variazionale delle Equazioni di Lagrange&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Geometria 2</title>
+      <link>https://example.org/notes/geometria-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/notes/geometria-2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://example.org/notes/G2_11.pdf&#34;&gt;1.1 - Forme Bilineari e Quadratiche&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/G2_12.pdf&#34;&gt;1.2 - Coniche e Quadriche&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/G2_13.pdf&#34;&gt;1.3 - Fasci di Coniche&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/G2_21.pdf&#34;&gt;2.1 - Spazi Topologici e Applicazioni Continue&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/G2_22.pdf&#34;&gt;2.2 - Sottospazi, Quozienti, Prodotti&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/G2_23.pdf&#34;&gt;2.3 - Separazione, Compattezza, Connessione&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/G2_31.pdf&#34;&gt;3.1 - Introduzione alle Varietà Differenziabili&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/G2_32.pdf&#34;&gt;3.2 - Superfici Differenziabili&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/G2_33.pdf&#34;&gt;3.3 - Curve Differenziabili&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/G2_34.pdf&#34;&gt;3.4 - Geometria Intrinseca&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Metodi Matematici</title>
+      <link>https://example.org/notes/metodi-matematici/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/notes/metodi-matematici/</guid>
+      <description>&lt;p&gt;Purtroppo, gli appunti di analisi di Fourier sono incompleti.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://example.org/notes/Analisi_complessa.pdf&#34;&gt;Parte 1: Analisi Complessa&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://example.org/notes/Analisi_di_Fourier.pdf&#34;&gt;Parte 2: Analisi di Fourier&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Topologia</title>
+      <link>https://example.org/notes/topologia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/notes/topologia/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://example.org/notes/Topologia.pdf&#34;&gt;Puoi scaricare gli appunti qui&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

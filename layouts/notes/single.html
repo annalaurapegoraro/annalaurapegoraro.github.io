@@ -1,0 +1,12 @@
+{{ define "main" }}
+  {{ partial "breadcrumbs.html" . }}
+  <article>
+    <h1>{{ .Title }}</h1>
+    <!-- <p><strong>Descrizione:</strong> {{ .Description }}</p> -->
+    <p><strong>Prerequisiti:</strong> {{ .Params.prerequisites }}</p>
+    <p><strong>Argomenti affrontati:</strong> {{ .Params.topics }}</p>
+
+    {{ .Content }}
+
+  </article>
+{{ end }}
