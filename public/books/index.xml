@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Annalaura Pegoraro</title>
+    <link>http://localhost:1313/books/</link>
+    <description>Recent content in Books on Annalaura Pegoraro</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orlando, Virginia Woolf (tr. Silvia Rota Sperti)</title>
+      <link>http://localhost:1313/books/orlando/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/books/orlando/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A Room of One&#39;s Own, Virginia Woolf (tr. L.B. Wilcock &amp; J.R. Wilcock)</title>
+      <link>http://localhost:1313/books/a_room_for_ones_own/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/books/a_room_for_ones_own/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Bell Jar, Sylvia Plath (tr. Adriana Bottini)</title>
+      <link>http://localhost:1313/books/the_bell_jar/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/books/the_bell_jar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>My Year of Rest and Relaxation, Otessa Moshfegh</title>
+      <link>http://localhost:1313/books/my_year_of_rest-and_relaxation/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/books/my_year_of_rest-and_relaxation/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
