@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on Annalaura Pegoraro</title>
-    <link>https://example.org/books/</link>
+    <link>https://annalaurapegoraro.github.io/books/</link>
     <description>Recent content in Books on Annalaura Pegoraro</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/books/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://annalaurapegoraro.github.io/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Orlando, Virginia Woolf (tr. Silvia Rota Sperti)</title>
-      <link>https://example.org/books/orlando/</link>
+      <link>https://annalaurapegoraro.github.io/books/orlando/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/books/orlando/</guid>
+      <guid>https://annalaurapegoraro.github.io/books/orlando/</guid>
       <description></description>
     </item>
     <item>
       <title>A Room of One&#39;s Own, Virginia Woolf (tr. L.B. Wilcock &amp; J.R. Wilcock)</title>
-      <link>https://example.org/books/a_room_for_ones_own/</link>
+      <link>https://annalaurapegoraro.github.io/books/a_room_for_ones_own/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/books/a_room_for_ones_own/</guid>
+      <guid>https://annalaurapegoraro.github.io/books/a_room_for_ones_own/</guid>
       <description></description>
     </item>
     <item>
       <title>The Bell Jar, Sylvia Plath (tr. Adriana Bottini)</title>
-      <link>https://example.org/books/the_bell_jar/</link>
+      <link>https://annalaurapegoraro.github.io/books/the_bell_jar/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/books/the_bell_jar/</guid>
+      <guid>https://annalaurapegoraro.github.io/books/the_bell_jar/</guid>
       <description></description>
     </item>
     <item>
       <title>My Year of Rest and Relaxation, Otessa Moshfegh</title>
-      <link>https://example.org/books/my_year_of_rest-and_relaxation/</link>
+      <link>https://annalaurapegoraro.github.io/books/my_year_of_rest-and_relaxation/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/books/my_year_of_rest-and_relaxation/</guid>
+      <guid>https://annalaurapegoraro.github.io/books/my_year_of_rest-and_relaxation/</guid>
       <description></description>
     </item>
   </channel>
