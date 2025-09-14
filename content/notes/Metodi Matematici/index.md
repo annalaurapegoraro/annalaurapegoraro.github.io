@@ -6,5 +6,5 @@ topics: "analisi complessa, analisi di Fourier"
 ---
 Purtroppo, gli appunti di analisi di Fourier sono incompleti.
 
-[Parte 1: Analisi Complessa](/notes/Analisi_complessa.pdf)  
-[Parte 2: Analisi di Fourier](/notes/Analisi_di_Fourier.pdf)
+[Parte 1: Analisi Complessa](/notes/MM_AC.pdf)  
+[Parte 2: Analisi di Fourier](/notes/MM_AF.pdf)
