@@ -6,8 +6,15 @@
     <description>Recent content in Home on Annalaura Pegoraro</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://annalaurapegoraro.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Old Man and the Sea, Ernest Hemingway</title>
+      <link>https://annalaurapegoraro.github.io/books/old_man_and_sea/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://annalaurapegoraro.github.io/books/old_man_and_sea/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Orlando, Virginia Woolf (tr. Silvia Rota Sperti)</title>
       <link>https://annalaurapegoraro.github.io/books/orlando/</link>
@@ -62,7 +69,7 @@
       <link>https://annalaurapegoraro.github.io/notes/metodi-matematici/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://annalaurapegoraro.github.io/notes/metodi-matematici/</guid>
-      <description>&lt;p&gt;Purtroppo, gli appunti di analisi di Fourier sono incompleti.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://annalaurapegoraro.github.io/notes/Analisi_complessa.pdf&#34;&gt;Parte 1: Analisi Complessa&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://annalaurapegoraro.github.io/notes/Analisi_di_Fourier.pdf&#34;&gt;Parte 2: Analisi di Fourier&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Purtroppo, gli appunti di analisi di Fourier sono incompleti.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://annalaurapegoraro.github.io/notes/MM_AC.pdf&#34;&gt;Parte 1: Analisi Complessa&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://annalaurapegoraro.github.io/notes/MM_AF.pdf&#34;&gt;Parte 2: Analisi di Fourier&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Topologia</title>
