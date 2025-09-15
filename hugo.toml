@@ -85,4 +85,4 @@ categoryid = "categoryId"
 mapping = "pathname"
 theme = "preferred_color_scheme"
 
-publishdir = "docs"
+publishDir = "docs"
