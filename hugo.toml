@@ -32,7 +32,7 @@ I am a Mathematics student from Italy and this is a space where I share my lectu
 paginationSize = 100
 listSummaries = true
 listDateFormat = '2 Jan 2006'
-singleDateFormat = '2 Jan 2006' 
+singleDateFormat = '2 Jan 2006'
 
 # Breadcrumbs
 [params.breadcrumbs]
