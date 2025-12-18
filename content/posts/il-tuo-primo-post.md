@@ -3,7 +3,7 @@ title: "Plateau's Problem: the Douglas–Radó Theorem"
 # author: "Annalaura"
 # authorAvatarPath: "/avatar.jpeg"
 date: "2025-12-17"
-draft: true
+draft: false
 summary: "A brief presentation of my Bachelor's thesis."
 description: false
 toc: true # stands for Table Of Contents, summarizes sections and subsections
