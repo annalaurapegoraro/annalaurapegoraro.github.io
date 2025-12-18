@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://annalaurapegoraro.github.io/books/</loc>
-    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://annalaurapegoraro.github.io/</loc>
+    <lastmod>2025-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://annalaurapegoraro.github.io/posts/</loc>
+    <lastmod>2025-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://annalaurapegoraro.github.io/books/</loc>
     <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://annalaurapegoraro.github.io/books/i_figli_dell_odio/</loc>
     <lastmod>2025-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://annalaurapegoraro.github.io/posts/</loc>
-    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://annalaurapegoraro.github.io/books/the_country_of_the_blind/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
