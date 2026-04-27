@@ -2,55 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://annalaurapegoraro.github.io/</loc>
+    <loc>http://localhost:1313/books/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/il_violino_del_pazzo/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/il_mendel_dei_libri/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/math/</loc>
     <lastmod>2025-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/tags/math/</loc>
+    <loc>http://localhost:1313/posts/il-tuo-primo-post/</loc>
     <lastmod>2025-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/posts/il-tuo-primo-post/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/posts/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/tags/</loc>
-    <lastmod>2025-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://annalaurapegoraro.github.io/books/</loc>
+    <loc>http://localhost:1313/books/i_figli_dell_odio/</loc>
     <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/books/i_figli_dell_odio/</loc>
-    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://annalaurapegoraro.github.io/books/the_country_of_the_blind/</loc>
+    <loc>http://localhost:1313/books/the_country_of_the_blind/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/books/old_man_and_sea/</loc>
+    <loc>http://localhost:1313/books/old_man_and_sea/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/books/orlando/</loc>
+    <loc>http://localhost:1313/books/orlando/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/books/a_room_for_ones_own/</loc>
+    <loc>http://localhost:1313/books/a_room_for_ones_own/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/books/the_bell_jar/</loc>
+    <loc>http://localhost:1313/books/the_bell_jar/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/books/my_year_of_rest-and_relaxation/</loc>
+    <loc>http://localhost:1313/books/my_year_of_rest-and_relaxation/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/notes/analisi-matematica-2/</loc>
+    <loc>http://localhost:1313/notes/analisi-matematica-2/</loc>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/notes/fisica-matematica/</loc>
+    <loc>http://localhost:1313/notes/analisi-reale/</loc>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/notes/geometria-2/</loc>
+    <loc>http://localhost:1313/notes/fisica-matematica/</loc>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/notes/metodi-matematici/</loc>
+    <loc>http://localhost:1313/notes/geometria-2/</loc>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/notes/</loc>
+    <loc>http://localhost:1313/notes/metodi-matematici/</loc>
   </url><url>
-    <loc>https://annalaurapegoraro.github.io/notes/topologia/</loc>
+    <loc>http://localhost:1313/notes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/notes/topologia/</loc>
   </url>
 </urlset>
