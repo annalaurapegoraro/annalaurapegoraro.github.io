@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<link rel="icon" type="image/ico" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
+
+<meta name="description" content="false"/>
+
+
+
+<title>
+    
+    Plateau&#39;s Problem: the Douglas–Radó Theorem | Annalaura Pegoraro
+    
+</title>
+
+<link rel="canonical" href="http://localhost:1313/posts/il-tuo-primo-post/"/>
+
+<meta property="og:url" content="http://localhost:1313/posts/il-tuo-primo-post/">
+  <meta property="og:site_name" content="Annalaura Pegoraro">
+  <meta property="og:title" content="Plateau&#39;s Problem: the Douglas–Radó Theorem">
+  <meta property="og:description" content="false">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-12-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-12-17T00:00:00+00:00">
+    <meta property="article:tag" content="Math">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.eb86b901122fe77fedd0efb8b958b9bdb2c00db0563e280c92208bdb43dfdc42.css" media="all">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="auto">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">
+        <a href="http://localhost:1313/">Annalaura Pegoraro</a>
+    </h1>
+
+    <div class="header-menu">
+        
+
+        
+        
+
+        <p
+            class="small ">
+            <a href="/" >
+                /home
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/notes/" >
+                /notes
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/books/" >
+                /books
+            </a>
+        </p>
+        
+
+        <p
+            class="small ">
+            <a href="/posts" >
+                /posts
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+    </header>
+
+    <main class="main">
+      
+
+
+
+
+<div class="breadcrumbs"><a href="/">~</a><span class="breadcrumbs-separator">/</span><a href="/posts/">Posts</a><span class="breadcrumbs-separator">/</span>
+        <a href="/posts/il-tuo-primo-post/">Plateau&#39;s Problem: the Douglas–Radó Theorem</a></div>
+
+
+<div  class="autonumber" >
+  <article>
+    <header class="single-intro-container">
+        
+        <h1 class="single-title">Plateau&#39;s Problem: the Douglas–Radó Theorem</h1>
+        <p class="single-summary">A brief presentation of my Bachelor&rsquo;s thesis.</p>
+        
+        <div class="single-subsummary">
+          
+          <div>
+            
+            <p class="single-date">
+              <time datetime="2025-12-17T00:00:00&#43;00:00">17 Dec 2025</time>
+              &nbsp; · &nbsp;5 min read
+            </p>
+          </div>
+        </div>
+        
+    </header>
+      <aside class="toc">
+        <p><strong>Table of contents</strong></p>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#plateaus-problem">Plateau&rsquo;s problem</a>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#parametric-formulation">Parametric formulation</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-douglasradó-theorem">The Douglas–Radó theorem</a>
+      <ul>
+        <li><a href="#from-the-area-functional-to-the-dirichlet-energy">From the area functional to the Dirichlet energy</a></li>
+        <li><a href="#statement-of-the-theorem">Statement of the theorem</a></li>
+      </ul>
+    </li>
+    <li><a href="#proof-of-the-theorem">Proof of the theorem</a>
+      <ul>
+        <li><a href="#eliminating-parametrization-dependence">Eliminating parametrization dependence</a></li>
+        <li><a href="#three-points-normalization">Three-points normalization</a></li>
+        <li><a href="#courantlebesgue-lemma">Courant–Lebesgue lemma</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+      </aside>
+    
+    <div class="single-content">
+      <p>I recently earned my Bachelor&rsquo;s degree from the University of Padua with a thesis titled &ldquo;Plateau&rsquo;s Problem: the Douglas&ndash;Radó Theorem&rdquo;. <br>
+Here is an overview of my thesis defense, accompanied by a photo from the day:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+<figure class="">
+
+    <div class="img-container" >
+        <img loading="lazy" alt="Discussione" src="/images/discussione.jpg" >
+    </div>
+
+    
+</figure>
+</p>
+<p>If you are interested in more details and references, you can find the full thesis in the <a href="https://thesis.unipd.it/handle/20.500.12608/102023">University archive</a>.</p>
+<h2 class="heading" id="plateaus-problem">
+  Plateau&rsquo;s problem
+  <a class="anchor" href="#plateaus-problem">#</a>
+</h2>
+<h3 class="heading" id="introduction">
+  Introduction
+  <a class="anchor" href="#introduction">#</a>
+</h3>
+<p>Plateau&rsquo;s problem concerns the existence of a minimal surface whose boundary is a given curve in space. Before getting into the math, I would like to introduce the intuitive concept of a minimal surface. Let&rsquo;s think of &ldquo;soap films&rdquo; obtained by dipping a wire frame into soapy water and then pulling it out.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/jReQUm9EB9k?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>The film obtained in this way arranges itself such that any local deformation would increase its area, which is proportional to the &ldquo;elastic energy&rdquo; of the surface. In other words, it arranges itself so that the area is minimized: in this sense, we speak of a <em>minimal surface</em>.</p>
+<p>Now, if we fix a closed curve $\Gamma$ in space, Plateau&rsquo;s problem consists of answering the question: <strong>does there exist a surface of minimal area that has $\Gamma$ as its boundary?</strong></p>
+<p>In the 1930s, Jesse Douglas and Tibor Radó proved, independently, that for sufficiently regular curves, such a surface always exists.</p>
+<h3 class="heading" id="parametric-formulation">
+  Parametric formulation
+  <a class="anchor" href="#parametric-formulation">#</a>
+</h3>
+<p>Let us now proceed with the parametric formulation of Plateau&rsquo;s problem.<br>
+Consider the unit disk $D$ in the complex plane, and a parametrization $$\gamma:\partial D\to\mathbb{R}^n$$which is of class $C^1$, regular, and injective: it is a <em>Jordan curve</em>. Let$$\Gamma=\gamma(\partial D)$$ be its support. This is our &ldquo;wire frame&rdquo;.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+<figure class="">
+
+    <div class="img-container" >
+        <img loading="lazy" alt="Parametric" src="/images/disegno.png" >
+    </div>
+
+    
+</figure>
+</p>
+<p>Let $F$ be such that
+$$F\in C^2(D)\cap C(\overline{D}), \quad F(\partial D)=\Gamma, \quad \Sigma=F(D)$$
+We say that the image of the disk $$\Sigma=F(D)$$ is a <em>parametric 2-surface</em>. This parametric surface formalizes the idea of the &ldquo;soap film&rdquo;.<br>
+Plateau&rsquo;s problem consists of minimizing the area functional</p>
+<p>$$\mathscr{A}(F)=\int_D \sqrt{|F_u|^2|F_v|^2-\langle F_u,F_v\rangle^2} \ dudv,$$</p>
+<p>with $F$ varying among the class of maps</p>
+<p>$$\mathscr{C}(\Gamma)=\{F:\partial D\to\mathbb{R}^n \text{ is a homeomorphism}\}.$$</p>
+<p>Having arrived at this formulation, the natural idea is to search for a minimizing sequence of functions in $\mathscr{C}(\Gamma)$ and hope that this &ldquo;converges&rdquo; (in some unspecified topology) to the sought-after minimal surface. The problem is that $\mathscr{C}(\Gamma)$ is not &ldquo;compact&rdquo; (in some unspecified topology) and the area functional $\mathscr{A}$ is invariant under any diffeomorphism of the disk.</p>
+<h2 class="heading" id="the-douglasradó-theorem">
+  The Douglas–Radó theorem
+  <a class="anchor" href="#the-douglasrad%c3%b3-theorem">#</a>
+</h2>
+<h3 class="heading" id="from-the-area-functional-to-the-dirichlet-energy">
+  From the area functional to the Dirichlet energy
+  <a class="anchor" href="#from-the-area-functional-to-the-dirichlet-energy">#</a>
+</h3>
+<p>Douglas&rsquo;s idea was to replace the area functional with the Dirichlet energy:</p>
+<p>$$\mathscr{E}(F)=\frac{1}{2}\int_D \left(|F_u|^2+|F_v|^2\right) \ dudv$$</p>
+<p>In fact, the following properties hold:</p>
+<ul>
+<li>$\mathscr{A}(F)\leq\mathscr{E}(F)$ and equality holds if $F$ is weakly conformal;</li>
+<li>$\displaystyle \inf_{F\in\mathscr{C}(\Gamma)}\mathscr{A}(F)=\inf_{F\in\mathscr{C}(\Gamma)}\mathscr{E}(F)\quad$ (Morrey)</li>
+</ul>
+<p>Plateau&rsquo;s problem thus becomes finding an $F$ that realizes the infimum of the energy.<br>
+We are in a more advantageous situation than before because the Dirichlet energy is invariant only under <strong>conformal transformations</strong> of the disk.</p>
+<h3 class="heading" id="statement-of-the-theorem">
+  Statement of the theorem
+  <a class="anchor" href="#statement-of-the-theorem">#</a>
+</h3>
+<p>We are now ready to state the Douglas&ndash;Radó theorem:</p>
+<blockquote>
+<p><strong>Theorem (Douglas&ndash;Radó)</strong></p>
+<p>$\exists F\in\mathscr{C}(\Gamma)$ that minimizes $\mathscr{A}$ such that:</p>
+<ol>
+<li>$F\in C^\infty(D)$, $\Delta F=0$ (i.e. each coordinate is harmonic);</li>
+<li>$F\mid_{\partial D}$ is a homeomorphism;</li>
+<li>$F$ is weakly conformal, with isolated singularities.</li>
+</ol></blockquote>
+<p>Where does Laplace&rsquo;s equation come from? The second fundamental step, after replacing the area functional with the Dirichlet energy, is the transition from minimal surfaces to harmonic functions. From the theory of partial differential equations, we know that the Dirichlet problem</p>
+<p>$$
+\begin{cases}
+\Delta F=0 &amp; \text{ in } D\\
+F\rvert_{\partial D}=\gamma &amp;
+\end{cases}
+$$</p>
+<p>admits a unique solution $F^\gamma \in C^{\infty}(D)\cap C(\overline{D})$ and, since $\gamma$ is of class $C^1$, $\mathscr{E}(F)&lt;\infty$ (this will be useful later).
+In particular, Laplace&rsquo;s equation is the Euler&ndash;Lagrange equation associated to the Dirichlet energy, and Dirichlet energy is a convex functional: this means that by finding a solution to Dirichlet&rsquo;s problem we find a global minimizer of the energy $\mathscr{E}$.</p>
+<h2 class="heading" id="proof-of-the-theorem">
+  Proof of the theorem
+  <a class="anchor" href="#proof-of-the-theorem">#</a>
+</h2>
+<h3 class="heading" id="eliminating-parametrization-dependence">
+  Eliminating parametrization dependence
+  <a class="anchor" href="#eliminating-parametrization-dependence">#</a>
+</h3>
+<p>Finally, we should notice that the solution to Dirichlet&rsquo;s problem $F^\gamma$ depends on the specific parametrization $\gamma$ we choose for $\Gamma$. We want to remove this dependence.
+Pick a sequence of parametrizations $\gamma_j$ that is minimizing for the energy, i.e. $$\lim_{j\to\infty} \mathscr{E}(F^{\gamma_j})=\overline{\mathscr{E}}:=\inf_{F\in\mathscr{C}(\Gamma)}\mathscr{E}(F) ,$$ and <strong>assume</strong> that it converges uniformly to another parametrization, i.e.$$\gamma_j\underset{j\to\infty}{\rightrightarrows} \gamma .$$
+Then, it can be proved that $$F^{\gamma_j}\underset{j\to\infty}{\rightrightarrows} F,$$where $F$ has harmonic coordinates and satisfies$$\mathscr{E}(F)\leq \liminf_{j\to\infty}\mathscr{E}(F^{\gamma_j})=\overline{\mathscr{E}}.$$ Hence, once we prove that the remaining properties in the theorem hold, we can conclude that $F$ gives our minimal surface and the proof is concluded.</p>
+<h3 class="heading" id="three-points-normalization">
+  Three-points normalization
+  <a class="anchor" href="#three-points-normalization">#</a>
+</h3>
+<p>It now remains to show that we can actually find a minimizing sequence that converges uniformly. To do this, we first remove the conformal invariance of the energy by doing a <em>three-points normalization</em>, i.e. fixing the image of three points on the boundary of the unit disk: $$\gamma(e^{i\frac{2k\pi}{3}})=p_k,\quad k=1,2,3.$$
+Why exactly three points? Because conformal transformations are Möbius maps, which are determined by the image of three points. This prevents &ldquo;sliding&rdquo; along the boundary via conformal transformations, which could otherwise disrupt convergence.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+<figure class="">
+
+    <div class="img-container" >
+        <img loading="lazy" alt="Normalization" src="/images/disegno1.png" >
+    </div>
+
+    
+</figure>
+</p>
+<h3 class="heading" id="courantlebesgue-lemma">
+  Courant–Lebesgue lemma
+  <a class="anchor" href="#courantlebesgue-lemma">#</a>
+</h3>
+<p>Secondly, we use the following lemma:</p>
+<blockquote>
+<p><strong>Lemma (Courant&ndash;Lebesgue)</strong></p>
+<p>Let $z\in\partial D$, $G(r,\theta)=F(z+re^{i\theta})$. Then $\forall \delta\in(0,1)$, $\exists r\in[\delta,\sqrt{\delta}]$ such that:</p>
+<p>$$\textnormal{Length}(G(r,\cdot))\leq\sqrt{\frac{4\pi\mathscr{E}(F)}{-\log(\delta)}}$$</p></blockquote>
+<p>Recalling that $\mathscr{E}(F)&lt;\infty$ because $\gamma$ is of class $C^1$, we know that the quantity on the right is finite. This lemma states that the length of the image of a small arc is bounded. This prevents points near each other on the boundary of the domain from being &ldquo;stretched&rdquo; and sent to distant points on the curve $\Gamma$, guaranteeing the equicontinuity of the boundary parametrizations. Finally, by the Ascoli-Arzelà theorem we can extract a uniformly converging subsequence.</p>
+<p>As already observed, at this point it is sufficient to prove the remaining properties to conclude the proof of the theorem.</p>
+<h2 class="heading" id="conclusion">
+  Conclusion
+  <a class="anchor" href="#conclusion">#</a>
+</h2>
+<p>In conclusion, the Douglas-Radó Theorem was the first rigorous answer to Plateau&rsquo;s problem.</p>
+<p>The physical limits of this solution are evident: in reality, non-orientable soap films exist (e.g., Möbius Strip), whereas the solution is restricted to the disk topology. Moreover, real films may exhibit self-intersections that interact with each other, while this solution does not account for such interactions.</p>
+<p>However, this theorem is a fundamental result that paved the way for many other formulations and for the calculus of variations.</p>
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </main>
+  </div>
+
+  
+  
+
+
+
+
+
+    
+
+
+
+
+  <footer>
+    
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+  </footer>
+
+  
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
+  
+<script defer 
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
+
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false }
+      ]
+    });
+  });
+</script>
+  
+</body>
+
+<script src="/js/theme-switch.js"></script>
+<script defer src="/js/copy-code.js"></script>
+</html>
